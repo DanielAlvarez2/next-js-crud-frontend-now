@@ -1,3 +1,69 @@
+[YouTube: Next.js CRUD - Frontend Now 59m:48s](https://www.youtube.com/watch?v=HAuYoBpHNHc&t=0s)  
+  
+[left off here](https://www.youtube.com/watch?v=HAuYoBpHNHc&t=234s)  
+  
+3:54 / 59:48  
+234s  
+
+YouTube:  
+Next.js CRUD Tutorial for Absolute Beginners (Full App in Minutes)  
+- Frontend Now 59m:48s  
+  
+$ npx create-next-app@latest .  
+  
+? Would you like to use the recommended Next.js defaults?  
+>     No, customize settings  
+  
+? Would you like to use TypeScript? No  
+  
+? Which linter would you like to use? None  
+  
+? Would you like to use React Compiler? No  
+  
+? Would you like to use Tailwind CSS? No  
+  
+? Would you like your code inside a `src/` directory? No  
+  
+? Would you like to use App Router? (recommended) Yes  
+  
+? Would you like to customize the import alias (`@/*` by default)? No  
+  
+$ git config user.name 'Daniel Alvarez'  
+  
+$ git config user.email 'daniel.yllanes@hotmail.com'  
+  
+$ git add .  
+  
+$ git commit -m 'initial commit'  
+  
+$ git push  
+  
+$ npm run dev  
+  
+From another computer connected to the same network:  
+Enter into browser url bar:  
+- Network: http://xxx.xxx.x.xxx:xxxx  
+  
+Cross origin request detected from xxx.xxx.x.xxx to /_next/* resource. In a  
+future major version of Next.js, you will need to explicitly configure  
+"allowedDevOrigins" in next.config to allow this.  
+Read more:  
+https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins  
+  
+rename app/page.js to page.jsx  
+  
+app/page.jsx:  
+edit text in h1 to ensure hot module replacement is working across the 2 computers  
+  
+app/page.jsx:  
+delete all content inside of <main></main>  
+  
+create a new folder:  
+app/api  
+  
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
