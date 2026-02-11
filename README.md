@@ -3,7 +3,7 @@
 [left off here](https://www.youtube.com/watch?v=HAuYoBpHNHc&t=610s)  
   
 10:10 / 59:48  
-234s  
+610s  
 
 YouTube:  
 Next.js CRUD Tutorial for Absolute Beginners (Full App in Minutes)  
